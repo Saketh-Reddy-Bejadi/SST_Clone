@@ -159,3 +159,93 @@ nav>div{
     filter: opacity(50%)
 
 }
+.fourth_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1s4{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.float2{
+    position: absolute; 
+    right: 270px;
+}
+.h1s4 span {
+    color: #E06543;
+}
+.s4code1{
+    background-color: white;
+    width: 40%;
+    margin: 40px auto 20px auto;
+    border-radius: 20px;
+    padding: 20px 10px 30px 10px;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 94px;
+    gap: 40px;
+}
+.controls img{
+    max-width: 10%;
+    max-height: 200%;
+}
+.codetmp{
+    display: flex;
+    justify-content: center;
+}
+.codetmp img{
+    max-width: 90%;
+    box-shadow:2px 6px 19px 2px rgba(0, 0, 0, 0.5);
+}
+.vertical_border{
+    border-right: 1px dashed black;
+    height: 200px;
+    width: 50%;
+
+}
+.two50{
+    height: 250px;
+}
+.eight50{
+    height: 855px;
+}
+.box1{
+    text-align: center;
+    position: relative;
+    margin: 10px 0px 20px 0px;
+}
+.float3{
+    position: absolute;
+    top: -10px;
+    left: 290px;
+}
+.circle_border {
+    border:1.9px dashed #E06543;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    margin:10px auto 10px auto;
+}
+.float4{
+    position: absolute;
+    top: -10px;
+    right: 330px;
+}
+.learnbtn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.path{
+    position: relative;
+}
+.codeimg{
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px -2xp black;
+    position: absolute;
+}
