@@ -48,6 +48,14 @@ nav>div{
     margin-left: 250px;
     gap: 90px;
 } */
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.navlist:hover{
+    color: #E06543;
+    transition: 0.2s;
+}
 .s21l{
     display: flex;
     font-weight:500;
@@ -117,7 +125,7 @@ nav>div{
     background-color: #E06543;
     color: white;    
     padding: 23px 55px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 550;
     border: none;
     border-radius: 5px;    
@@ -244,8 +252,33 @@ nav>div{
 .path{
     position: relative;
 }
-.codeimg{
+.code{
     border-radius: 10px;
-    box-shadow: 0px 6px 12px -2xp black;
     position: absolute;
+    /* box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+.codeimg1{
+    top: 90px;
+    left: 180px;
+}
+.codeimg2{
+    top: 335px;
+    right: 185px;
+}
+.txtcon{
+    position: absolute;
+    width: 360px;
+    height: 130px;
+}
+.con1{
+    top: 170px;
+    right: 240px;
+}
+.con2{
+    text-align: end;
+    top: 440px;
+    left: 240px;
+}
+.codeP{
+    color: rgba(0, 0, 0, 0.802);
 }
