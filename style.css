@@ -278,7 +278,47 @@ nav a{
     text-align: end;
     top: 440px;
     left: 240px;
+    display: flex;flex-direction: column;
+    align-items: end;
 }
 .codeP{
     color: rgba(0, 0, 0, 0.802);
+}
+
+.codeimg3{
+    top: 655px;
+    left: 180px;
+}
+.symbol{
+    display: inline-block;
+    filter: grayscale(50);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:4px 5px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    box-shadow: 1px 1px 12px  -5px black ;
+    margin: 0px 0px 5px 0px;
+}
+.sy2{
+    align-self: flex-end;
+}
+.con3{
+    position: absolute;
+    top: 745px;
+    right: 240px;
+}
+.con4{
+    text-align: end;
+    position: absolute;
+    bottom:470px ;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    left: 240px;
+}
+.codeimg4{
+    bottom: 430px;
+    right: 170px;
 }
