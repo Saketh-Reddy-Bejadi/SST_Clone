@@ -330,3 +330,16 @@ nav a{
     bottom: 200px;
     right: 240px;
 }
+.path2{
+    position: relative;
+}
+.codeimg6{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+.con6{
+    top: 250px;
+    right:210px;
+    width: 400px;
+}
