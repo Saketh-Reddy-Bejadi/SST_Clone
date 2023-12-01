@@ -470,6 +470,7 @@ nav a{
         position: static;
         display: flex;
         justify-content: center;
+        display: none;
     }
     .txtcon{
         position: static;
@@ -481,5 +482,8 @@ nav a{
     }
     .sy2{
         align-self: self-start;
+    }
+    .codeimg6{
+        position: static;
     }
 }
