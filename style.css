@@ -343,3 +343,143 @@ nav a{
     right:210px;
     width: 400px;
 }
+.deploy1{
+    width: 430px;
+    height: 100px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.751);
+    background-color: white;
+}
+.head{
+    padding: 10px;
+    border-bottom: 0.5px solid rgba(130, 130, 130, 0.627);
+}
+@media only screen and (max-width: 600px){
+    .second_section{
+        padding: 0px;
+    }
+    .navlist{
+        display: none;
+    }
+    .first_section{
+        padding:0px;
+    }
+    .s21l{
+        padding: 20px 0px;
+    }
+    .s2h1l{
+        font-size: 3px;
+    }
+    .s2h1{
+        padding: 10px;  
+        margin: 0px;
+        font-size: 40px;
+        font-weight:900;
+    }
+    .curlyimgs2{
+        top: 160px;
+        left: 10px;
+        height: 40px;
+    }
+    .highlightimgs2{
+        top: 50px;
+        right: 2px;
+        height: 40px;
+    }
+    .pointtxt {
+        font-size: 16px;
+    }
+    .codetxt{
+        font-size: 16px;
+        margin: 10px 0px 20px 0px;
+    }
+    .btnsec{
+        display: block;
+    }
+    .btn1s2{
+        width:340px;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 20px 0px;
+    }
+    .btn2s2{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+    }
+    .border1{
+        display: none;
+    }
+    .p1s3{
+        margin: 50px 0px 0px 0px;
+        font-size:13px;
+    }
+    .brands{
+        gap: 10px;
+    }
+    .brands img{
+        max-width: 15%;
+        aspect-ratio: 3/2;
+    }
+    .border3{
+        width: 90%;
+        margin: 10px auto 20px auto;
+    }
+    .h1s4{
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+        padding: 20px;
+    }
+    .float2,.float3,.float4{
+        display: none;
+    }
+    .ps4{
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 20px ;
+        color: rgba(0, 0, 0, 0.628);
+    }
+    .s4code1{
+        width: 105%;
+        margin: 30px 0px 10px 0px;
+        padding:0px 20px 20px 20px; 
+    }
+    .controls{
+        padding: 0px ;  
+        height: 70px;
+        gap: 18px;
+    }
+    .border4{
+        height: 80px;
+    }
+
+    .box1{
+        margin: 0px;
+    }
+    .border30{
+        height: 60px;
+    }
+    .circle_border{
+        display: none;
+    }
+    .dnone{
+        display: none;
+    }
+    .code{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .txtcon{
+        position: static;
+        width: 100%;
+        margin: 10px ;
+        text-align: start;
+        align-items: start;
+
+    }
+    .sy2{
+        align-self: self-start;
+    }
+}
