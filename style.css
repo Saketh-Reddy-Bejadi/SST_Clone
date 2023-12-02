@@ -255,15 +255,16 @@ nav a{
 .code{
     border-radius: 10px;
     position: absolute;
-    /* box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+    box-shadow: 1px 1px 20px 9px rgba(0, 0, 0, 0.27);
+
 }
 .codeimg1{
-    top: 90px;
-    left: 180px;
+    top: 125px;
+    left: 220px;
 }
 .codeimg2{
-    top: 335px;
-    right: 185px;
+    top: 380px;
+    right: 210px;
 }
 .txtcon{
     position: absolute;
@@ -286,19 +287,19 @@ nav a{
 }
 
 .codeimg3{
-    top: 655px;
-    left: 180px;
+    top: 695px;
+    left: 220px;
 }
 .symbol{
     display: inline-block;
     filter: grayscale(50);
-    border: 1px solid black;
+    border: 1px solid rgba(3, 3, 43, 0.47);
     border-radius: 5px;
     padding:4px 5px;
     display: flex;
     align-items: center;
     width: 30px;
-    box-shadow: 1px 1px 12px  -5px black ;
+    /* box-shadow: 1px 1px 12px  -5px black ; */
     margin: 0px 0px 5px 0px;
 }
 .sy2{
@@ -319,12 +320,12 @@ nav a{
     left: 240px;
 }
 .codeimg4{
-    bottom: 430px;
-    right: 170px;
+    bottom: 470px;
+    right: 220px;
 }
 .codeimg5{
-    bottom: 145px;
-    left: 120px;
+    bottom: 175px;
+    left: 140px;
 }
 .con5{
     bottom: 200px;
@@ -335,25 +336,93 @@ nav a{
 }
 .codeimg6{
     position: absolute;
-    top: 150px;
+    top: 240px;
     left: 190px;
 }
 .con6{
-    top: 250px;
+    top: 285px;
     right:210px;
     width: 400px;
 }
 .deploy1{
     width: 430px;
-    height: 100px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.751);
     background-color: white;
+    position: absolute;
+    bottom: 320px;
+    left: 180px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px 9px rgba(112, 112, 112, 0.27);
 }
 .head{
     padding: 10px;
     border-bottom: 0.5px solid rgba(130, 130, 130, 0.627);
 }
+.deploy1 .body{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.bodypt2{
+    width: 70%;
+}
+.bdypt2-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.568);
+    margin: 10px 0px 0px 0px;
+}
+.btn{
+    background-color: #6094aa;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin:8px;
+}
+.po2{
+    bottom:200px;
+    width: 29%;
+    left: 200px;
+    opacity: 70%;
+}
+.po2 .body{
+    font-size: 80%;
+}
+.po3{
+    bottom:75px;
+    width: 26%;
+    left: 220px;
+    opacity: 40%;
+}
+.txtstyl{
+    font-weight: bolder;
+    font-style: italic;
+    color: #395C6B;
+}
+.con7{
+    bottom: 180px;
+    width: 450px;
+    right: 140px;
+}
+.deployupdate{
+    position: relative;
+}
+.carousel{
+    margin: auto;
+    border-radius: 20px;
+    width: 80vw;
+    height: 100vh;
+    background-color: #395C6B;
+    font-family: "Roboto Slab", serif;
+    color: white;
+}
+
 @media only screen and (max-width: 600px){
     .second_section{
         padding: 0px;
