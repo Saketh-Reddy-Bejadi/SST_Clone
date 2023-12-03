@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Roboto Slab';
+    src:url('Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  }
 body{
     background-color:#EDE1DA;
     font-family: 'Source Sans 3', sans-serif;
@@ -413,14 +417,62 @@ nav a{
 .deployupdate{
     position: relative;
 }
-.carousel{
+.car_box{
     margin: auto;
     border-radius: 20px;
-    width: 80vw;
+    width: 90vw;
     height: 100vh;
     background-color: #395C6B;
-    font-family: "Roboto Slab", serif;
+    font-family:"Roboto Slab";
     color: white;
+    padding: 55px;
+    position: relative;
+}
+.carH1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom:30px;
+}
+.slides{
+    display: none;
+}
+.slideshow_con{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin: auto;
+    padding: 90px;
+    border: 1px dashed white;
+    border-radius: 15px;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    background-color: #395C6B;
+    padding: 5px 10px;
+    border:1px dashed white;
+    top: 45%;
+    left: -15px;
+    width: fit-content;
+    border-radius: 20px;
+}
+.next{
+    top: 45%;
+    left:  1103px;
+}
+.sliH1{
+    /* background: (-149.11deg, rgba(226, 113, 82, 0.75), rgba(226, 113, 82, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    background: linear-gradient(-149.11deg, rgba(226, 113, 82, 0.822), rgb(255, 255, 255));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 54px;
+    text-align: center;
+
 }
 
 @media only screen and (max-width: 600px){
